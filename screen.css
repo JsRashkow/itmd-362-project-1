@@ -229,22 +229,25 @@ header {
 
 .signUpForm {
   display: block;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
 }
 
 label{
-  clear: right;
-  display: inline-block;
-  float: right;
-  text-align: right;
+  clear: left;
+  display: block;
+  float: left;
+  margin-top: 15px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input {
   width: 200px;
-  display: inline-block;
-  clear: right;
-  float: right;
+  display: block;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
