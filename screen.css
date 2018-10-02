@@ -227,6 +227,14 @@ header {
   margin: 0 auto:
 }
 
+label {
+  text-align: left;
+}
+
+input {
+  width: 175px;
+}
+
 .signUpForm {
   display: block;
   width: 100%;
@@ -236,4 +244,5 @@ header {
 .submit{
   width: 125px;
   margin: 0 auto;
+  margin-top: 20px;
 }
