@@ -213,3 +213,9 @@ textarea {
   font: inherit; /* 2 */
 }
 /*End Normalize*/
+
+body {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
