@@ -246,7 +246,18 @@ input {
   margin: 0 auto;
 }
 
-.submit{
+.custNameInfo {
+  width: 100%;
+  margin: 0 auto:
+}
+
+.custContactInfo {
+  width: 100%;
+  margin: 0 auto:
+}
+
+
+.submit {
   width: 125px;
   margin: 0 auto;
   margin-top: 20px;
