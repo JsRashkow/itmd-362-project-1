@@ -227,19 +227,6 @@ header {
   margin: 0 auto:
 }
 
-label {
-  width: 100px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-input {
-  width: 175px;
-  float: right;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .signUpForm {
   display: block;
   width: 100%;
