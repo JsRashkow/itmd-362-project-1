@@ -233,6 +233,7 @@ label {
 
 input {
   width: 175px;
+  float: right;
 }
 
 .signUpForm {
