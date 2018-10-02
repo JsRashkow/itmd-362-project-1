@@ -234,13 +234,13 @@ header {
 }
 
 .custNameInfo {
-  width: 100%;
-  margin: 0 auto:
+  display: inline-block;
+  float: right;
 }
 
 .custContactInfo {
-  width: 100%;
-  margin: 0 auto:
+  display: inline-block;
+  float: left;
 }
 
 
@@ -248,9 +248,4 @@ header {
   width: 125px;
   margin: 0 auto;
   margin-top: 20px;
-}
-
-form {
-  width: 100%;
-  margin: 0 auto:
 }
