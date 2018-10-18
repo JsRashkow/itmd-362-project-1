@@ -1,3 +1,3 @@
 function send() {
-    alert("Thank You for Subscribing!");
-    }
+  alert("Thank You for Subscribing!");
+}
