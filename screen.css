@@ -214,6 +214,19 @@ textarea {
 }
 /*End Normalize*/
 
-body{
-	box-sizing: border-box;
+body {
+  box-sizing: border-box;
 }
+
+header {
+  width: 500px;
+  padding-top: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
+
+
