@@ -227,22 +227,19 @@ header {
 }
 
 .signUpForm {
-  width: 500px;
-  margin: auto;
-  background-color: gray;
+  padding: 2%;
+  margin: 2% 33% 5% 33%;
+  background-color: #228B22;
+  border: 4px solid black;
 }
 
-.custNameInfo {
+input[type=text],input[type=tel],input[type=email],input[type=date], input[type=submit]{
   width: 100%;
-  text-align: center;
-}
-
-.custContactInfo {
-  width: 100%;
-  text-align: center;
-}
-
-.submit{
-  width: 100%;
-  text-align:center;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
