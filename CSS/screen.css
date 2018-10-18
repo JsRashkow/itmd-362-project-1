@@ -249,27 +249,27 @@ input[type=text],input[type=tel],input[type=email],input[type=date], input[type=
 @media only screen and (max-width: 480px) {
   .signUpForm {
     width: 75%;
-	margin: 0 auto;
+    margin: 0 auto;
   }
   
   header {
     width: 100%;
     margin: auto;
     text-align: center;
-	font-size: 100%;
+    font-size: 100%;
   }
 }
 
 @media only screen and (max-width: 960px) {
   .signUpForm {
     width: 75%;
-	margin: 0 auto;
+    margin: 0 auto;
   }
   
   header {
     width: 100%;
     margin: auto;
     text-align: center;
-	font-size: 100%;
+    font-size: 100%;
   }
 }
