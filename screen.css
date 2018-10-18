@@ -214,3 +214,6 @@ textarea {
 }
 /*End Normalize*/
 
+body{
+	box-sizing: border-box;
+}
