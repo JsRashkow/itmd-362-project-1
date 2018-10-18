@@ -214,38 +214,3 @@ textarea {
 }
 /*End Normalize*/
 
-body {
-  display: block;
-  width: 50%;
-  margin: 0 auto;
-}
-
-header {
-  padding-bottom: 10px;
-  padding-top: 20px;
-  width: 100%;
-  margin: 0 auto:
-}
-
-.signUpForm {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.custNameInfo {
-  display: inline-block;
-  float: right;
-}
-
-.custContactInfo {
-  display: inline-block;
-  float: left;
-}
-
-
-.submit {
-  width: 125px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
