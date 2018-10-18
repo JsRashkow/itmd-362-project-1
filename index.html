@@ -6,28 +6,29 @@
     <title>Sign-Up</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <link rel="stylesheet" media="screen" href="screen.css" />
+    <link rel="stylesheet" media="screen" href="CSS/screen.css" />
+	<script src="javascript/js.js"></script>
   </head>
   
   <body>
   
     <header>
-      <h1>Sign Up for Company Newsletter</h1>
+      <h1>Sign Up for Buisness Newsletter</h1>
     </header>
 	
-    <div class='signUpForm'>
+    <form class='signUpForm' onsubmit="send()">
       <div class='custNameInfo'>
-	    <p><label>First Name: <input type="text" name="firstName"></label></p>
-	    <p><label>Last Name: <input type="text" name="lastName"></label></p>
+	    <p><label>First Name: <input type="text" name="firstName" required></label></p>
+	    <p><label>Last Name: <input type="text" name="lastName" required></label></p>
 	  </div>
 	  <div class='custContactInfo'>
-	    <p><label>Date of Birth: <input type="date" name="birthDate"></label></p>
-	    <p><label>Email: <input type="email" name="email"></label></p>
+	    <p><label>Date of Birth: <input type="date" name="birthDate" required></label></p>
+	    <p><label>Email: <input type="email" name="email" pattern="^.+@.+$" required></label></p>
 	  </div>
 	  <div class='submit'>
-	    <p><input type="submit" value="SUBMIT"></p>
+	    <p><input type="submit" value="SUBSCRIBE"></p>
 	  </div>
-    </div>
+    </form>
 	
   </body>
   
