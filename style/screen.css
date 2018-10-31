@@ -213,23 +213,29 @@ textarea {
   font: inherit; /* 2 */
 }
 /*End Normalize*/
-
+/* Modular scale calculated off Golden Ratio with base being 1em*/
 html {
     font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
 
-body {
-  background-color: #887CAF;
+h1 {
+  line-height: 4.236em;
 }
 
-header {
-  width: 500px;
-  padding-top: 25px;
-  padding-bottom: 15px;
-  margin: auto;
-  text-align: center;
-  font-size: 36px;
-  color: #260339;
+h2 {
+  line-height: 2.618em;
+}
+
+h3 {
+  line-height: 1.618em;
+}
+
+p {
+  line-height: 1em;
+}
+ 
+body {
+  background-color: #887CAF;
 }
 
 .signUpForm {
@@ -239,7 +245,6 @@ header {
   border: 2px solid black;
   border-radius: 10px;
   color: #887CAF;
-  width: 50%;
 }
 
 input[type=text],input[type=tel],input[type=email],input[type=date], input[type=submit]{
