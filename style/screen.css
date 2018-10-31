@@ -214,6 +214,10 @@ textarea {
 }
 /*End Normalize*/
 
+html {
+    font-family: 'Bangers', 'Verdana', 'Helvetica', serif;
+ }
+
 body {
   background-color: #8FBC8F;
 }
