@@ -219,7 +219,7 @@ html {
  }
 
 body {
-  background-color: #8FBC8F;
+  background-color: #887CAF;
 }
 
 header {
@@ -229,14 +229,17 @@ header {
   margin: auto;
   text-align: center;
   font-size: 36px;
+  color: #260339;
 }
 
 .signUpForm {
   padding: 2%;
-  margin: 2% 33% 5% 33%;
-  background-color: #228B22;
+  margin: auto;
+  background-color: #3D1255;
   border: 2px solid black;
   border-radius: 10px;
+  color: #887CAF;
+  width: 50%;
 }
 
 input[type=text],input[type=tel],input[type=email],input[type=date], input[type=submit]{
