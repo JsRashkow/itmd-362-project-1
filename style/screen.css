@@ -215,7 +215,7 @@ textarea {
 /*End Normalize*/
 /* Modular scale calculated off Golden Ratio with base being 1em*/
 html {
-    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
 
 h1 {
@@ -238,13 +238,23 @@ body {
   background-color: #887CAF;
 }
 
+header {
+  width: 100%;
+  text-align: center;
+  font-size: 4.236em;
+  padding: 0;
+}
+
 .signUpForm {
+  display: block;
   padding: 2%;
   margin: auto;
   background-color: #3D1255;
   border: 2px solid black;
   border-radius: 10px;
   color: #887CAF;
+  width: 50%;
+  overflow: hidden;
 }
 
 input[type=text],input[type=tel],input[type=email],input[type=date], input[type=submit]{
@@ -272,7 +282,7 @@ input[type=text],input[type=tel],input[type=email],input[type=date], input[type=
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (max-width: 960px) {
   .signUpForm {
     width: 75%;
     margin: 0 auto;
